@@ -4,13 +4,14 @@
  *    Sort into ASCENDING order based on custNumber value
  */
 
-import java.util.Comparator;                                   // import interface
+import java.util.Comparator; //import interface
 
-public class Customer_CustNumber implements Comparator<Customer> 
+public class Customer_CustNumber implements Comparator < Customer > 
 {
-  public int compare( Customer cust1, 
-                      Customer cust2 )
+  public int compare(Customer cust1, Customer cust2)
   {
-    return cust1.getCustNumber( ).compareTo( cust2.getCustNumber( ) );
-  } // end compare
-}  // end Customer_CustNumber
+    return cust1.getCustNumber().compareTo(cust2.getCustNumber());
+  
+  }//end compare
+
+}//end Customer_CustNumber
