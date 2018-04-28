@@ -71,8 +71,7 @@ public class CustomerAccountReport
         catch (IOException ioException) 
         {
             System.err.println("Error opening input file."); //print out message if ioException is thrown
-            ioException.printStackTrace();
-            throw ioException;
+            ioException.printStackTrace( );
          
         }//end catch
         
@@ -120,7 +119,6 @@ public class CustomerAccountReport
         {
             System.err.println("Error closing input files."); //print out message if ioException is thrown
             ioException.printStackTrace( );
-            throw ioException;
          
         }//end catch statement
 
