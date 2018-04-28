@@ -1,6 +1,6 @@
  (/****************************************************************************************
   *   Title: CustomerAccountReport.java PA4
-  *   Authors: Wesley Eaton (), Meagan Folmar (zpy558), Adam Garibay ()
+  *   Authors: Wesley Eaton (), Meagan Folmar (zpy558), Adam Garibay (rsg825)
   *   Date: 4/26/2018 2226
   *   Code version: 1.0
   * 
